@@ -1,0 +1,33 @@
+
+@font-face{
+
+    font-family: "FuturaBold";
+    src: url(../fonts/FuturaPT/FuturaPTBold.otf) format("opentype");
+}
+
+@font-face{
+
+    font-family: "FuturaHeavy";
+    src: url(../fonts/FuturaPT/FuturaPTHeavy.otf) format("opentype");
+}
+
+
+@font-face{
+
+    font-family: "FuturaHeavyOblique";
+    src: url(../fonts/FuturaPT/FuturaPTHeavyOblique.otf) format("opentype");
+}
+
+
+@font-face{
+
+    font-family: "FuturaBookOblique";
+    src: url(../fonts/FuturaPT/FuturaPTBookOblique.otf) format("opentype");
+}
+
+
+@font-face{
+
+    font-family: "FuturaLight";
+    src: url(../fonts/FuturaPT/FuturaPTLight.otf) format("opentype");
+}
