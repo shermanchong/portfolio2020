@@ -5,3 +5,7 @@
 .naviLi a:hover{
     background-color: #B4C77C;
 }
+
+.item {
+    transition: all .4s;
+}
