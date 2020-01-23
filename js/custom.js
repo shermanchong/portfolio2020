@@ -7,4 +7,8 @@ var instance = M.Carousel.init({
   indicators: true,
 });
 
+$('.carousel.carousel-slider').carousel({
+  fullWidth: true,
+  indicators: true
+});
 
