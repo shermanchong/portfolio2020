@@ -31,6 +31,12 @@
     src: url(../fonts/FuturaPT/FuturaPTDemiOblique.otf) format("opentype");
 }
 
+@font-face{
+
+    font-family: "FuturaDemi";
+    src: url(../fonts/FuturaPT/FuturaPTDemi.otf) format("opentype");
+}
+
 
 @font-face{
 

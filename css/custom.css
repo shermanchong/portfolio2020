@@ -9,3 +9,12 @@
 .item {
     transition: all .4s;
 }
+
+.collapsible-body{
+    height: 100vh;
+}
+
+.porsche img{
+    height: auto;
+    width: 100%;
+}

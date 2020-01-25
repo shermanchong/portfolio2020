@@ -1,12 +1,11 @@
 M.AutoInit();
 
-var instance = M.Carousel.init({
-  fullWidth: true,
-  dist: 75,
-  duration: 00,
-  indicators: true,
-  
-});
+$('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true,
+    dist: 0,
+    duration: 100
+  });
 
 
 var body = document.querySelector(".body");
