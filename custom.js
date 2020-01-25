@@ -1,3 +1,4 @@
+
 M.AutoInit();
 
 $('.carousel.carousel-slider').carousel({
@@ -22,3 +23,5 @@ function grey(item){
   item.style.transform = "scale(1.2)";
   body.style.backgroundColor= "rgb(150,166,102,50%)";
 }
+
+

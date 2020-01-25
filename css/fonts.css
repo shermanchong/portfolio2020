@@ -49,3 +49,9 @@
     font-family: "FrutigerBlk";
     src: url(../fonts/Frutiger/Frutiger\ LT\ 75\ Black.ttf) format("truetype");
 }
+
+@font-face{
+
+    font-family: "OktaNeue";
+    src: url(../fonts/OktaNeueBlackItalic/Groteskly\ Yours\ -\ Okta\ Neue\ Black\ Italic.otf) format("truetype");
+}

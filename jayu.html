@@ -10,6 +10,8 @@
     <link type="text/css" rel="stylesheet" href="css/fonts.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen,projection" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -73,7 +75,8 @@
                     <div class="row valign-wrapper"
                         style="height: 100%; width: 100%; margin: auto; height:100%; background-size: cover; background-color: rgb(92,14,105,50%); box-shadow: 5px 5px 15px #ABABAB;">
 
-                        <div class="col s12 center-align" style="padding-bottom:  20px; margin:auto; ">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="col s12 center-align"
+                            style="padding-bottom:  20px; margin:auto; ">
                             <h4 style="font-family: FrutigerBlk; color:white; font-size: 20vw; ">JAYU
                             </h4>
 
@@ -212,15 +215,33 @@
                 </h6>
             </div>
 
-            <div class="col s12 center-align" style="padding: 0px; ">
-                <img src="images/jayuMeeting.jpg" alt="UI Design Sprint"
-                    style="padding: 0px;  width:60%; margin-bottom: 25px;">
-                <img src="images/JAYU(lowfi).png" alt="Desktop Mockup" style="padding: 0px;  width:90%">
+
+
+            <div class="col s12 offset-l2 l8 center-align hide-on-large-only" style="padding: 0px; ">
+                <img data-aos="fade-left" data-aos-duration="1500" src="images/jayuDrawings.jpg" alt="UI Design Sprint"
+                    style="padding: 0px;  width:60%; margin-bottom: 15px; width: 80%; ">
+                <img data-aos="fade-right" data-aos-duration="1500" src="images/jayuGroup.jpg" alt="UI Design Sprint"
+                    style="padding: 0px;  width:60%; margin-bottom: 15px;  width: 60%;">
+                <img class="materialboxed" data-aos="fade-up" data-aos-duration="3000" src="images/JAYU(lowfi).png"
+                    alt="Desktop Mockup" style="padding-left: 20px; padding-right: 20px;  width:100%">
+
+            </div>
+
+            <div class="col s12 offset-l2 l8 center-align hide-on-med-and-down" style="padding: 0px; ">
+                <img data-aos="fade-left" data-aos-duration="2000" src="images/jayuDrawings.jpg" alt="UI Design Sprint"
+                    style="padding: 0px;  width:60%; margin-bottom: 25px; position: relative; left: 100px; top:150px; width: 80%; ">
+                <img data-aos="fade-right" data-aos-duration="1500" src="images/jayuGroup.jpg" alt="UI Design Sprint"
+                    style="padding: 0px;  width:60%; margin-bottom: 25px; position: relative; right: 200px; top:0 px; width: 55%;">
+                <h6
+                    style="font-family: FuturaDemiOblique; font-size: 120%; letter-spacing: 1px; line-height: 175%; padding-left: 25px; padding-right: 10px; margin-bottom: 25px; position: relative; left: 350px; bottom: 150px;">
+                    Low Fidelity Mockups (mobile)</h6>
+                <img class="materialboxed" data-aos="fade-up" data-aos-duration="2000" src="images/JAYU(lowfi).png"
+                    alt="Desktop Mockup" style="padding: 0px;  width:90%">
 
             </div>
 
 
-            <div class="col s12" style="margin-bottom: 75px;">
+            <div class="col s12 offset-l2 l8" style="margin-bottom: 75px;">
                 <h6
                     style="font-family: FuturaDemiOblique; font-size: 120%; letter-spacing: 1px; line-height: 175%; padding-left: 25px; padding-right: 10px; margin-bottom: 25px;">
                     High Fidelity Mockups (mobile)</h6>
@@ -254,13 +275,14 @@
 
 
         <div class="row" style="margin-bottom: 100px; margin-top:100px; padding-top:50px;  ">
-            <div class="col s12 center-align" style="padding: 0px; ">
-                <img src="images/JAYU(hero).jpg" alt="Desktop Mockup" style="padding: 0px;  width:100%">
+            <div class="col s12 offset-l2 l8 center-align" style="padding: 0px; ">
+                <img class="materialboxed" src="images/JAYU(hero).jpg" alt="Desktop Mockup"
+                    style="padding: 0px;  width:100%">
 
             </div>
 
 
-            <div class="col s12" style="margin-bottom: 75px;">
+            <div class="col s12 offset-l2 l8" style="margin-bottom: 75px;">
                 <h6
                     style="font-family: FuturaDemiOblique; font-size: 120%; letter-spacing: 1px; line-height: 175%; padding-left: 25px; padding-right: 10px; margin-bottom: 25px;">
                     High Fidelity Mockups (mobile)</h6>
@@ -279,7 +301,7 @@
 
         <div class="row" style="margin-bottom: 50px;">
             <div class="col s12 offset-m2 m8 offset-l3 l6">
-                <a style="color: rgb(92,14,105);" href="https://github.com/jackytam2020/JAYU">
+                <a style="color: rgb(92,14,105);" target="_blank" href="https://github.com/jackytam2020/JAYU">
                     <h6 style="font-family: FuturaBookOblique; padding: 25px; font-size: 150%;">- View Our GitHub Here -
                     </h6>
                 </a>
@@ -288,12 +310,12 @@
 
         <div class="row" style="margin-bottom: 100px; margin-top:100px; padding-top:50px;  ">
 
-            <div class="col s12 offset-m2 m8 offset-l3 l6 center-align" style="padding: 0px; ">
-                <img src="images/jayuCard.jpg" alt="Business Card Design" style="padding: 0px;  ">
+            <div class="col s12 offset-m2 m8 offset-l4 l4 center-align" style="padding: 0px; ">
+                <img class="materialboxed" src="images/jayuCard.jpg" alt="Business Card Design" style="padding: 0px;  ">
             </div>
 
 
-            <div class="col s12 offset-m2 m8 offset-l3 l6 left-align" style="margin-bottom: 50px;">
+            <div class="col s12 offset-m2 m8 offset-l4 l4 left-align" style="margin-bottom: 50px;">
                 <h6
                     style="font-family: FuturaDemiOblique; font-size: 120%; letter-spacing: 1px; line-height: 175%; padding-left: 10px; margin-bottom: 25px;">
                     Business Card Design</h6>
@@ -314,22 +336,22 @@
             <div class="row" style="background-color: #B4C77C; padding: 25px; width: 100vw;  ">
                 <div class="col s12 offset-l2 l8 center-align">
                     <div class="col s3">
-                        <a>
+                        <a href="" target="_blank">
                             <img src="icons/instagram.png" alt="Instagram" />
                         </a>
                     </div>
                     <div class="col s3">
-                        <a>
+                        <a href="" target="_blank">
                             <img src="icons/linkedin.png" alt="LinkedIn" />
                         </a>
                     </div>
                     <div class="col s3">
-                        <a>
+                        <a href="" target="_blank">
                             <img src="icons/github.png" alt="GitHub" />
                         </a>
                     </div>
                     <div class="col s3">
-                        <a>
+                        <a href="" target="_blank">
 
                             <img src="icons/gmail.png" alt="Gmail" />
                         </a>
@@ -376,6 +398,10 @@
     </footer>
 
     <!--JavaScript at end of body for optimized loading-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 </body>
