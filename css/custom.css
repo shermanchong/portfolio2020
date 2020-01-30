@@ -25,8 +25,11 @@
 
 .navList:hover{
     background-color: #FA9C5F;
+<<<<<<< HEAD
 }
 
 #resume h4:hover {
     text-decoration: underline;
+=======
+>>>>>>> 0e5a8261c6deca4738ffca43f8fdcc2c04c1c0d5
 }
