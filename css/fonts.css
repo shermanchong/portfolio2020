@@ -25,9 +25,33 @@
     src: url(../fonts/FuturaPT/FuturaPTBookOblique.otf) format("opentype");
 }
 
+@font-face{
+
+    font-family: "FuturaDemiOblique";
+    src: url(../fonts/FuturaPT/FuturaPTDemiOblique.otf) format("opentype");
+}
+
+@font-face{
+
+    font-family: "FuturaDemi";
+    src: url(../fonts/FuturaPT/FuturaPTDemi.otf) format("opentype");
+}
+
 
 @font-face{
 
     font-family: "FuturaLight";
     src: url(../fonts/FuturaPT/FuturaPTLight.otf) format("opentype");
+}
+
+@font-face{
+
+    font-family: "FrutigerBlk";
+    src: url(../fonts/Frutiger/Frutiger\ LT\ 75\ Black.ttf) format("truetype");
+}
+
+@font-face{
+
+    font-family: "OktaNeue";
+    src: url(../fonts/OktaNeueBlackItalic/Groteskly\ Yours\ -\ Okta\ Neue\ Black\ Italic.otf) format("truetype");
 }

@@ -1,0 +1,32 @@
+.navi a:hover{
+    background-color: #B4C77C;
+}
+
+.naviLi a:hover{
+    background-color: #B4C77C;
+}
+
+.item {
+    transition: all .4s;
+}
+
+.collapsible-body{
+    height: 100vh;
+}
+
+.porsche img{
+    height: auto;
+    width: 100%;
+}
+
+#iammLink:hover h6{
+    color: #FA9C5F;
+}
+
+.navList:hover{
+    background-color: #FA9C5F;
+}
+
+#resume h4:hover {
+    text-decoration: underline;
+}
