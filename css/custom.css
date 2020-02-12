@@ -1,13 +1,22 @@
+.buttons:hover{
+    cursor: pointer;
+}
+
 .navi a:hover{
-    background-color: #B4C77C;
+    background-color: #73A580;
+}
+
+.navi{
+    background-color: #002E2C;
+    margin-top: 0px;
 }
 
 .naviLi a:hover{
-    background-color: #B4C77C;
+    background-color: #73A580;
 }
 
 .item {
-    transition: all .4s;
+    transition: all .8s;
 }
 
 .collapsible-body{
@@ -25,11 +34,32 @@
 
 .navList:hover{
     background-color: #FA9C5F;
-<<<<<<< HEAD
 }
 
 #resume h4:hover {
     text-decoration: underline;
-=======
->>>>>>> 0e5a8261c6deca4738ffca43f8fdcc2c04c1c0d5
+}
+
+.foot{
+    background-color: #002E2C; 
+    padding-top: 0px; 
+    margin-bottom: 0px;
+}
+
+.footTop{
+    background-color: #CADB96; 
+    padding: 25px; 
+    width: 100vw;  
+}
+
+.chev:hover{
+    color: black;
+}
+
+.carousel-item{
+    box-shadow: 5px 10px #888888;
+}
+
+.parallax-container{
+    height: 90vh;
 }
