@@ -11,7 +11,7 @@ fullWidth: true,
 indicators: true,
 dist: -100,
 shift: 10,
-duration: 600,
+duration: 200,
 
 });
 
