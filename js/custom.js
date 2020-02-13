@@ -1,4 +1,6 @@
-M.AutoInit();
+
+
+//Parallax
 
 $(document).ready(function(){
   $('.parallax').parallax();
@@ -7,35 +9,58 @@ $(document).ready(function(){
 $('.carousel.carousel-slider').carousel({
 fullWidth: true,
 indicators: true,
-dist: 0,
+dist: -100,
 shift: 10,
+duration: 600,
 
 });
 
-var instance = M.Carousel.getInstance(document.querySelector(".carousel"));
+//Carousel
+
+
 
 function next(){
+  var instance = M.Carousel.getInstance(document.querySelector(".carousel"));
   instance.next();
 }
 
 function prev(){
+  var instance = M.Carousel.getInstance(document.querySelector(".carousel"));
   instance.prev();
 }
+
+autoplay()   
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+
+//Box Image
 
 $(document).ready(function(){
   $('.materialboxed').materialbox();
 });
+
+//SideNav
 
 $(document).ready(function(){
   $('.sidenav').sidenav();
 });
 
 
+//Dropdown
 
 $(".dropdown-trigger").dropdown();
 
 var body = document.querySelector(".body");
 
+
+//Tabs
+$(document).ready(function(){
+  $('.tabs').tabs();
+});
+
+//Custom
 
 function color(item){
   
