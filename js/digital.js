@@ -1,4 +1,7 @@
 
+
+
+
 //Parallax
 
 $(document).ready(function () {
@@ -136,3 +139,23 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('.sidenav').sidenav();
 });
+
+
+//Sticky Navbar
+window.onscroll = function () { stickyNav() };
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+var tabNav = document.getElementById("tabNav");
+var stickyt = tabNav.offsetTop;
+
+function stickyNav() {
+    if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+     
+    } else {
+        navbar.classList.remove("sticky");
+
+    }
+};
+

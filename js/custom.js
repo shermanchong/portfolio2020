@@ -1,17 +1,29 @@
+//Sticky Navbar
+window.onscroll = function () { stickyNav() };
 
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function stickyNav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+};
 
 //Parallax
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.parallax').parallax();
 });
 
 $('.carousel.carousel-slider').carousel({
-fullWidth: true,
-indicators: true,
-dist: 0,
-shift: 10,
-duration: 200,
+  fullWidth: true,
+  indicators: true,
+  dist: 0,
+  shift: 10,
+  duration: 200,
 
 });
 
@@ -19,31 +31,31 @@ duration: 200,
 
 
 
-function next(){
+function next() {
   var instance = M.Carousel.getInstance(document.querySelector(".carousel"));
   instance.next();
 }
 
-function prev(){
+function prev() {
   var instance = M.Carousel.getInstance(document.querySelector(".carousel"));
   instance.prev();
 }
 
-autoplay()   
+autoplay()
 function autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(autoplay, 6500);
+  $('.carousel').carousel('next');
+  setTimeout(autoplay, 12500);
 }
 
 //Box Image
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.materialboxed').materialbox();
 });
 
 //SideNav
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.sidenav').sidenav();
 });
 
@@ -56,22 +68,24 @@ var body = document.querySelector(".body");
 
 
 //Tabs
-$(document).ready(function(){
+$(document).ready(function () {
   $('.tabs').tabs();
 });
 
 //Custom
 
-function color(item){
-  
+function color(item) {
+
   item.style.transform = "scale(1)";
- 
+
 }
 
-function grey(item){
+function grey(item) {
   item.style.transform = "scale(1.2)";
-  
+
 }
 
 
-var but = document.querySelector(".button")
+var but = document.querySelector(".button");
+
+

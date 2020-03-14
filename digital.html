@@ -24,7 +24,12 @@
 
         <!--Hero-->
         <main>
-
+                <div class="fixed-action-btn hide-on-large-only " style="bottom: 0px;">
+                        <a data-target="slide-out" class="btn-floating btn-large sidenav-trigger"
+                            style="background-color: rgba(4, 27, 21, 0.3);">
+                            <i class="large material-icons">menu</i>
+                        </a>
+                    </div>
 
 
                 <div class="row valign-wrapper" style="margin-bottom: 0px;">
@@ -33,7 +38,15 @@
                                 <div class="parallax-container"
                                         style="background-size: cover; background-color: rgb(50,50,50,50%);">
 
-
+                                        <div class="col s12 center-align "
+                                                style="background-color: rgba(0,0,0,0%);   padding:0px;">
+                                                <a href="index.html" style="color: white;">
+                                                        <h5
+                                                                style="font-family: FuturaBold; font-size: 1.5em; letter-spacing: 4px;">
+                                                                SHERMAN CHONG
+                                                        </h5>
+                                                </a>
+                                        </div>
 
 
                                         <!--sideNav(Mobile)-->
@@ -130,29 +143,9 @@
                                                                         style="font-family: FuturaLight; letter-spacing: 2px;">Resume</a>
                                                         </li>
                                                 </ul>
-                                                <a href="#" data-target="slide-out" class="sidenav-trigger"><i
-                                                                class="material-icons" style="color:white">menu</i></a>
+                                              
                                         </div>
 
-                                        <div class="col s9 left-align hide-on-large-only"
-                                                style="background-color: rgba(0,0,0,0%);   padding:0px;">
-                                                <a href="index.html" style="color: white;">
-                                                        <h5
-                                                                style="font-family: FuturaBold; font-size: 1.5em; letter-spacing: 4px;">
-                                                                SHERMAN CHONG
-                                                        </h5>
-                                                </a>
-                                        </div>
-
-                                        <div class="col offset-s3 s6 center-align hide-on-med-and-down"
-                                                style="background-color: rgba(0,0,0,0%);   padding:0px;">
-                                                <a href="index.html" style="color: white;">
-                                                        <h5
-                                                                style="font-family: FuturaBold; font-size: 1.5em; letter-spacing: 4px;">
-                                                                SHERMAN CHONG
-                                                        </h5>
-                                                </a>
-                                        </div>
 
                                         <div class="row " style="padding: 25px; margin-top: 25vh;">
                                                 <div data-aos="fade-right" data-aos-duration="1500" class="col s12 ">
@@ -174,7 +167,7 @@
 
                 <!--Nav Desktop-->
 
-                <nav class="hide-on-med-and-down">
+                <nav class="hide-on-med-and-down " id="navbar">
                         <div class="navi  row nav-wrapper ">
 
                                 <!-- Dropdown Trigger -->
@@ -186,6 +179,7 @@
                                 <a class=" col s4 center-align" href="digital.html"
                                         style="font-family: FuturaBold; font-size: 120%; letter-spacing: 2px; color:white; border-left: 0.1px solid grey;">Digital
                                         Assets</a>
+
 
                         </div>
                 </nav>
@@ -210,15 +204,14 @@
 
                 <!--Assets-->
 
-                <div class="row center-align " style="padding: 0;  background-color: black;">
+                <div class="row center-align " style="margin: 0;  background-color: black;">
                         <div class="col s12 offset-m3 m6 offset-l4 l4 center-align" style="padding: 0; ">
 
-                                <div class="row" style="padding: 0; margin: 0;">
-                                        <div class="col s12" style="padding: 0; margin: 0;">
+                                <div class="row" >
+                                        <div  class="col s12">
 
-
-                                                <ul class="tabs"
-                                                        style="padding: 0; margin: 0; border-top: 0.1px solid #ABABAB;">
+                                                <ul class="tabs" id="tabNav"
+                                                        style="padding-bottom: 50; margin:0; border-top: 0.1px solid #ABABAB;">
                                                         <li class="tab col s4"><a class="active" href="#test1"
                                                                         style="font-family: FuturaDemi; font-size: 120%; letter-spacing: 0px; color:black;">TYPE</a>
                                                         </li>
@@ -500,74 +493,84 @@
                         </div>
                 </div>
 
-                  <!--Footer-->
-        <footer class="page-footer foot">
-                <div style="padding-top: 25px;">
-                    <div class="row">
-    
-                        <div class="col offset-s1 s5 offset-l3 l3 left-align">
-                            <h6 class="white-text" style="font-family: FuturaLight; letter-spacing: 2px;">- Projects-
-                            </h6>
-    
-                            <ul>
-                                <li><a class="grey-text text-lighten-3" href="iamm.html"
-                                        style="font-family: FuturaLight; ">The IAMM
-                                        Project</a></li>
-                                <li><a class="grey-text text-lighten-3" href="jayu.html"
-                                        style="font-family: FuturaLight; letter-spacing: 2px;">JAYU</a></li>
-                                <li><a class="grey-text text-lighten-3" href="jung.html"
-                                        style="font-family: FuturaLight; ">Dr. Jeremy
-                                        Jung Podiatrics</a>
-                                </li>
-    
-                            </ul>
+                <!--Footer-->
+                <footer class="page-footer foot">
+                        <div style="padding-top: 25px;">
+                                <div class="row">
+
+                                        <div class="col offset-s1 s5 offset-l3 l3 left-align">
+                                                <h6 class="white-text"
+                                                        style="font-family: FuturaLight; letter-spacing: 2px;">-
+                                                        Projects-
+                                                </h6>
+
+                                                <ul>
+                                                        <li><a class="grey-text text-lighten-3" href="iamm.html"
+                                                                        style="font-family: FuturaLight; ">The IAMM
+                                                                        Project</a></li>
+                                                        <li><a class="grey-text text-lighten-3" href="jayu.html"
+                                                                        style="font-family: FuturaLight; letter-spacing: 2px;">JAYU</a>
+                                                        </li>
+                                                        <li><a class="grey-text text-lighten-3" href="jung.html"
+                                                                        style="font-family: FuturaLight; ">Dr. Jeremy
+                                                                        Jung Podiatrics</a>
+                                                        </li>
+
+                                                </ul>
+                                        </div>
+                                        <div class="col s5 l3 right-align">
+                                                <h6 class="white-text"
+                                                        style="font-family: FuturaLight; letter-spacing: 2px;">- Other-
+                                                </h6>
+                                                <ul>
+                                                        <li><a class="grey-text text-lighten-3" href="photo.html"
+                                                                        style="font-family: FuturaLight; letter-spacing: 1px;">Photography</a>
+                                                        </li>
+                                                        <li><a class="grey-text text-lighten-3" href="digital.html"
+                                                                        style="font-family: FuturaLight; letter-spacing: 1px;">Digital
+                                                                        Assets</a></li>
+                                                        <li><a class="grey-text text-lighten-3"
+                                                                        href="Sherman'sResume2020.pdf" download
+                                                                        style="font-family: FuturaLight; letter-spacing: 1px;">Resume</a>
+                                                        </li>
+
+
+                                                </ul>
+
+                                        </div>
+                                        <div class="col s12 offset-m4 m4 center-align">
+                                                <div class="col s3">
+                                                        <a href="https://www.instagram.com/sherms___/" target="_blank">
+                                                                <img src="icons/instagram.svg" alt="Instagram" />
+                                                        </a>
+                                                </div>
+                                                <div class="col s3">
+                                                        <a href="https://www.linkedin.com/in/shermanchongdesigns/"
+                                                                target="_blank">
+                                                                <img src="icons/linkedin.svg" alt="LinkedIn" />
+                                                        </a>
+                                                </div>
+                                                <div class="col s3">
+                                                        <a href="https://github.com/shermanchong" target="_blank">
+                                                                <img src="icons/github.svg" alt="GitHub" />
+                                                        </a>
+                                                </div>
+                                                <div class="col s3">
+                                                        <a href="mailTo:sherman.cm.chong@gmail.com" target="_blank">
+
+                                                                <img src="icons/gmail.svg" alt="Gmail" />
+                                                        </a>
+                                                </div>
+                                        </div>
+                                </div>
                         </div>
-                        <div class="col s5 l3 right-align">
-                            <h6 class="white-text" style="font-family: FuturaLight; letter-spacing: 2px;">- Other- </h6>
-                            <ul>
-                                <li><a class="grey-text text-lighten-3" href="photo.html"
-                                        style="font-family: FuturaLight; letter-spacing: 1px;">Photography</a></li>
-                                <li><a class="grey-text text-lighten-3" href="digital.html"
-                                        style="font-family: FuturaLight; letter-spacing: 1px;">Digital Assets</a></li>
-                                <li><a class="grey-text text-lighten-3" href="Sherman'sResume2020.pdf" download
-                                        style="font-family: FuturaLight; letter-spacing: 1px;">Resume</a></li>
-    
-    
-                            </ul>
-                            
+                        <div class="footer-copyright">
+                                <div class="container center-align">
+                                        © 2020 Copyright Sherman Chong Design
+
+                                </div>
                         </div>
-                        <div class="col s12 offset-m4 m4 center-align">
-                            <div class="col s3">
-                                <a href="https://www.instagram.com/sherms___/" target="_blank">
-                                    <img src="icons/instagram.svg" alt="Instagram" />
-                                </a>
-                            </div>
-                            <div class="col s3">
-                                <a href="https://www.linkedin.com/in/shermanchongdesigns/" target="_blank">
-                                    <img src="icons/linkedin.svg" alt="LinkedIn" />
-                                </a>
-                            </div>
-                            <div class="col s3">
-                                <a href="https://github.com/shermanchong" target="_blank">
-                                    <img src="icons/github.svg" alt="GitHub" />
-                                </a>
-                            </div>
-                            <div class="col s3">
-                                <a href="mailTo:sherman.cm.chong@gmail.com" target="_blank">
-    
-                                    <img src="icons/gmail.svg" alt="Gmail" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-copyright">
-                    <div class="container center-align">
-                        © 2020 Copyright Sherman Chong Design
-    
-                    </div>
-                </div>
-            </footer>
+                </footer>
 
                 <!--Import Jquery-->
                 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
